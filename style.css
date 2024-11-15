@@ -1,10 +1,12 @@
 
 /* CSS HEX 
---cool-gray: #8892b0ff;
---periwinkle: #c7d1f1ff;
---aquamarine: #64ffdaff;
---dark-slate-gray: #22585eff;
---oxford-blue: #0a192fff;
+General Backgroud: 0a192fff
+Title WHite: ccd6f6
+Title Grey: 8892b0
+Text Dark green: 22585eff
+Text Neon Green: 64ffda
+Nav menu color: c7d1f1ff
+
 */
 
 
@@ -47,7 +49,8 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;height: 100vh;
+    align-items: center;
+    height: 100vh;
 }
 
 .box{
@@ -71,10 +74,10 @@ body{
     font-style: normal;
 }
 
-#color1{
+.color1{
     color: #ccd6f6;
 }
-#color2{
+.color2{
     color: #8892b0;
 }
 
@@ -173,4 +176,91 @@ footer div section{
 .footer-links li a{
     text-decoration: none;
     color: #64ffda;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*TYPES OF TEXTS FOR FORMATTING*/
+
+.title1{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    font-style: normal;
+    color: #ccd6f6;
+}
+
+.title2{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    font-style: normal;
+    color: #8892b0;
+}
+
+.mono-text{
+    font-family: "IBM Plex Mono", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64ffda;
+}
+
+.sans-text{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #22585eff;
+}
+
+.copyright-text{
+
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*PROJECTS.HTML STYLES*/
+
+.project-main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.project-space{
+    display: flex;
+    flex-direction: row;
+}
+
+.project-space div img{
+    width: 50%;
+}
+
+.project-space div ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.project-space div ul li{
+    float: right;
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+
+.project-title{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.project-description{
+    background-color: #112240;
 }
