@@ -82,10 +82,10 @@ body{
     color: #64ffda;
 }
 
-.sans-text{
+.global-text{
     font-family: "Source Sans 3", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 600;
     font-style: normal;
     color: #22585eff;
 }
@@ -119,8 +119,6 @@ NAV MENU STYLING*/
     margin: 30px;
     text-decoration: none;
     color: #c7d1f1ff;
-    
-
 }
 
 #profilepic{
@@ -203,6 +201,41 @@ footer div section{
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*PROJECTS.HTML STYLES*/
 
+
+.project-title1{
+    font-family: "IBM Plex Mono", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64ffda;
+}
+
+.project-title2{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    color: #ccd6f6;
+
+}
+
+.project-text1{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #A8B2D1;
+
+}
+
+.project-text2{
+    font-family: "IBM Plex Mono", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color: #a8b2d1
+}
+
 .project-main{
     width: 80%;
     display: flex;
@@ -234,14 +267,12 @@ footer div section{
     text-decoration: none;
 }
 
-
-.project-title{
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.project-description{
+.description-text-box{
     background-color: #112240;
+    height: 120px;
+    width: 450px;
+    text-align: center;
+    display: flex;
+    padding: 12px;
+    border-radius: 5px;
 }
