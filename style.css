@@ -235,22 +235,30 @@ footer div section{
     font-style: normal;
     color: #a8b2d1
 }
-
+/*
 .project-main{
     width: 80%;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    margin: 100px;
+}
+
+.project-intro{
+    text-align: left !important;
 }
 
 .project-space{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    position: relative;
 }
 
 .project-space div img{
-    width: 50%;
+    width: 700px;
+    height: 400px;
 }
 
 .project-space div ul{
@@ -272,7 +280,106 @@ footer div section{
     height: 120px;
     width: 450px;
     text-align: center;
-    display: flex;
     padding: 12px;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
 }
+.overlay1{
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+.overlay2{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.project-name{
+    width: 100%;
+    height: 50%;
+}
+
+.project-links{
+    width: 100%;
+    height: 50%;
+}
+*/
+    /*------------------------------------------------------------------------------------------------------------------
+    testing some things */
+
+    .project-main {
+        width: 70%; /* Reduce width for more compact layout */
+        margin: auto; /* Center content horizontally */
+        padding: 50px 0; /* Add space around the sections */
+    }
+    
+    .project-space {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Adds spacing between elements */
+        align-items: center; /* Vertically align content */
+        margin: 50px 0; /* Add spacing between sections */
+    }
+
+    .project-space div img {
+        width: 600px; /* Adjust to a slightly smaller size */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 10px; /* Add smooth corners for a polished look */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+    }
+    
+    .description-text-box {
+        background-color: #112240;
+        height: 120px;
+        width: 450px;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .description-text-box:hover {
+        transform: translateY(-10px); /* Move up slightly */
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .project-links ul {
+        display: flex; /* Horizontal alignment */
+        gap: 15px; /* Space between icons */
+        justify-content: flex-start; /* Align to left */
+    }
+    
+    .project-links ul li {
+        margin: 0; /* Remove floating issues */
+    }
+    
+    .project-links ul li a i {
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+    
+    .project-links ul li a i:hover {
+        color: #64ffda; /* Match the hover color to your theme */
+        transform: scale(1.2); /* Slight zoom effect */
+    }
+
+    .project-space {
+        background-color: #0d2538; /* Darker than the main body */
+        padding: 20px;
+        border-radius: 10px; /* Rounded corners for modern feel */
+    }
+    
+    .description-text-box {
+        background-color: #0b1e31; /* Dark blue-gray background */
+    }
+    
+    .project-space {
+        margin: 40px 0;
+        padding: 20px;
+        border: 1px solid #112240; /* Add a border to each section */
+        border-radius: 15px;
+    }
+    
+    
+    
