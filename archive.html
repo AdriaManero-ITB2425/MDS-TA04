@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/archive.css">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <title>archive</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/contact.html"><span class="nav-number">04. </span>Contact</a></li>
+                <li><a href="/projects.html"><span class="nav-number">03. </span>Projects</a></li>
+                <li><a href="/archive.html"><span class="nav-number">02. </span>archive</a></li>
+                <li><a href="/about.html"><span class="nav-number">01. </span>About</a></li>
+                <li id="home-icon"><a href="/index.html"><img id="logo" src="/src/assets/images/profile.png" alt="home"></a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="container">
+            <h2>More Projects</h2>
+            <div class="layout-toggle">
+                <button class="toggle-btn active" id="cardViewBtn">Card View</button>
+                <button class="toggle-btn" id="tableViewBtn">Table View</button>
+            </div>
+            <div class="grid" id="cardView">
+                <div class="card">
+                    <div class="card-header">
+                        <span>📁</span>
+                    </div>
+                    <h3>Integrating Algolia Search with WordPress Multisite</h3>
+                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia.</p>
+                    <div class="tags">Algolia WordPress PHP</div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <span>📁</span>
+                    </div>
+                    <h3>Time to Have More Fun</h3>
+                    <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS.</p>
+                    <div class="tags">Next.js Tailwind CSS Firebase</div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <span>📁</span>
+                    </div>
+                    <h3>Building a Headless Mobile App CMS From Scratch</h3>
+                    <p>Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement.</p>
+                    <div class="tags">Node Express Firebase Vue</div>
+                </div>
+                <!-- Add more cards here -->
+            </div>
+        </div>
+            <!-- Card View -->
+            <!-- <div class="grid" id="cardView">
+                <div class="card">
+                    <h3>vu-mi</h3>
+                    <p>A serverless app enabling visitor count badges for GitHub profiles.</p>
+                    <div class="tags">Python AWS DynamoDB SQS</div>
+                </div>
+                <div class="card">
+                    <h3>mjurl</h3>
+                    <p>A simple URL shortening service implemented in Go.</p>
+                    <div class="tags">Go PostgreSQL</div>
+                </div> -->
+                <!-- Add more cards as needed -->
+            </div>
+            <!-- Table View -->
+            <div class="table-container hidden" id="tableView">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                            <th>Technologies</th>
+                            <th>Links</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>vu-mi</td>
+                            <td>Personal</td>
+                            <td>A serverless app enabling visitor count badges for GitHub profiles.</td>
+                            <td>Python AWS DynamoDB SQS</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+<script src="src/js/archive.js"></script>
+</body>
+</html>
