@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/matrix.css">
     <title>MyPortfolio</title>
 </head>
 
@@ -16,14 +17,14 @@
         <nav class="navbar">
             <ul>
                 <li><a href="contact.html"><span class="nav-number">04. </span>Contact</a></li>
-                <li><a href="projects.html"><span class="nav-number">03. </span>Projects</a></li>
-                <li><a href="archive.html"><span class="nav-number">02. </span>archive</a></li>
+                <li><a href="archive.html"><span class="nav-number">03. </span>archive</a></li>
+                <li><a href="projects.html"><span class="nav-number">02. </span>Projects</a></li>
                 <li><a href="about.html"><span class="nav-number">01. </span>About</a></li>
                 <li id="home-icon"><a href="index.html"><img id="logo" src="src/assets/images/profile.png" alt="home"></a></li>
             </ul>
         </nav>
     </header>
-    <main class="container">
+    <main id="container">
         <div class="box">
             <span class="mono-text">Hi, my name is</span><br>
             <span class="title1">Adrià Manero.</span><br>
@@ -34,43 +35,44 @@
                 scelerisque, a fermentum massa interdum.</p>
                 <button class="CV-button">Download my CV</button>
         </div>
-        <div class="box">
-            <img id='profilepic' src="src/assets/images/profile.png" alt="sexyboy">
-        </div>
+        <canvas id="c"></canvas>
+        <!-- <div class="box">
+            <img id='profilepic' src="src/assets/images/profile.png" alt="sexyboy"> -->
+        <!-- </div> -->
     </main>
     <footer>
         <div>
             <section>
-                <img id="footer-logo" src="src/assets/images/profile.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id feugiat odio. Quisque gravida
-                    consectetur tortor, et facilisis massa blandit vel.</p>
+                <span>SOCIAL LINKS</span>
+                <ul class="centered-list">
+                    <li><a href=""><img class="social-icons" src="src/assets/icons/github-mark/github-mark-white.png" alt=""></a></li>
+                    <li><a href=""><img class="social-icons"src="src/assets/icons/github-mark/github-mark-white.png" alt=""></a></li>
+                </ul>
             </section>
             <section>
                 <span>IMPORTANT LINKS</span>
-                <ul class="footer-links">
+                <ul>
                     <li><a href="">home</a></li>
                     <li><a href="">about</a></li>
-                    <li><a href="">archive</a></li>
                     <li><a href="">projects</a></li>
+                    <li><a href="">archive</a></li>
                     <li><a href="">contact</a></li>
                     <li><a href="">download my CV</a></li>
                 </ul>
             </section>
             <section>
                 <span>CONTACT INFO</span>
-                <p>prova@prova.itb.cat <br>+34 123456789 <br> Gualba, Barcelona</p>
-            </section>
-            <section>
-                <span>SOCIAL LINKS</span>
-                <ul class="social-links">-
-                    <li><a href=""><img class="social-icons" src="src/assets/icons/github-mark/github-mark-white.png" alt=""></a></li>
-                    <li><a href=""><img class="social-icons"src="src/assets/icons/github-mark/github-mark-white.png" alt=""></a></li>
+                <ul>
+                    <li>adria.manero.7e8@itb.cat</li>
+                    <li>+34 622 25 93 44</li>
+                    <li>Gualba, Barcelona</li>
                 </ul>
             </section>
         </div>
         <div>
-            <p>Copyright 2024 Adrià Manero. All rights Reserved</p>
+            <p class="copyright-text">Copyright 2024 Adrià Manero. All rights Reserved</p>
         </div>
     </footer>
 </body>
+<script src="src/js/network.js"></script>
 </html>

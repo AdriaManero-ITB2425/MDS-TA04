@@ -19,9 +19,16 @@ MAIN BODY CONTENT*/
 
 body{
     background-color: #0a192fff;
-    color: #22585eff;
+    color: #8892b0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
 }
-/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------------------- */
 /*TYPES OF TEXTS FOR FORMATTING*/
 
 .title1{
@@ -53,15 +60,15 @@ body{
     font-size: 16px;
     font-weight: 600;
     font-style: normal;
-    color: #22585eff;
+    color: #8892b0;
 }
 
 .copyright-text{
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 10px;
+    font-family: "IBM Plex Mono", serif;
+    font-size: 13px;
     font-weight: 400;
     font-style: normal;
-    color: #22585eff;
+    color: #A8B2D1;
 }
 
 /*-------------------------------------------------------------------------------------------------------------
@@ -116,49 +123,79 @@ NAV MENU STYLING*/
 /*-------------------------------------------------------------------------------------------------------------
 FOOTER STYLING*/
 
-footer{
-    background-color: #081628;
+footer {
+    background-color: #081628; /* Match the dark blue background theme */
+    color: #718096; /* Light text color for readability */
+    padding: 20px 40px; /* Add padding for spacing */
+    font-size: 0.9rem; /* Slightly smaller text size */
     font-family: "IBM Plex Mono", serif;
     font-size: 16px;
     font-weight: 400;
-    font-style: normal;
-    color: #64ffda;
+    margin-top: auto;
 }
+
 footer div {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    justify-content: space-between; /* Space out sections evenly */
+    gap: 20px;
 }
 
-footer div section{
-    padding: 100px;
+footer section {
+    flex: 1; /* Allow sections to adapt their size */
+    min-width: 200px; /* Prevent collapsing on smaller screens */
 }
 
-.social-icons{
-    width: 30px;
+footer section span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    /* color: #78dcca; Accent color for section titles */
+}
+
+footer ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #718096; /*Light link color*/ /*Light link color*/
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #78dcca; /* Match accent color for hover effect */
+}
+
+.social-icons {
+    width: 30px; /* Set size for icons */
     height: 30px;
 }
 
-#footer-logo{
-    height: 150px;
-    width: 150px;
+footer .copyright-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #718096; /* Dimmer text for copyright */
+    border-top: 1px solid #2d3748; /* Subtle divider */
+    padding-top: 10px;
 }
 
-.footer-links{
-    list-style: none;
+.centered-list {
+    display: flex;            /* Use flexbox to lay items side by side */
+    justify-content:flex-start  /* Center items horizontally */
+    list-style-type: none;    /* Remove bullets */
+    padding: 0;               /* Remove default padding */
+    margin: 0;                /* Remove default margin */
 }
 
-.footer-links li{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.centered-list li {
+    margin: 0 10px;           /* Add some horizontal spacing between items */
 }
-
-.footer-links li a{
-    text-decoration: none;
-    color: #64ffda;
-}
-
-
-  

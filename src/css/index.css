@@ -5,7 +5,7 @@ INDEX MAIN STYLING */
 
 
 
-.container{
+#container{
     display: flex;
     justify-content: center;
     align-items: center;

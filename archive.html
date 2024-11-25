@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/archive.css">
     <link rel="stylesheet" href="src/css/main.css">
+    <script src="https://kit.fontawesome.com/2f317d2498.js" crossorigin="anonymous"></script>
     <title>archive</title>
 </head>
 <body>
@@ -12,8 +13,8 @@
         <nav class="navbar">
             <ul>
                 <li><a href="contact.html"><span class="nav-number">04. </span>Contact</a></li>
-                <li><a href="projects.html"><span class="nav-number">03. </span>Projects</a></li>
-                <li><a href="archive.html"><span class="nav-number">02. </span>archive</a></li>
+                <li><a href="archive.html"><span class="nav-number">03. </span>archive</a></li>
+                <li><a href="projects.html"><span class="nav-number">02. </span>Projects</a></li>
                 <li><a href="about.html"><span class="nav-number">01. </span>About</a></li>
                 <li id="home-icon"><a href="index.html"><img id="logo" src="src/assets/images/profile.png" alt="home"></a></li>
             </ul>
@@ -28,7 +29,10 @@
             <div class="grid" id="cardView">
                 <div class="card">
                     <div class="card-header">
-                        <span>📁</span>
+                        <span><i class="fa-regular fa-folder fa-sm" style="color: #a8b2d1;"></i></span>
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-arrow-up-right-from-square fa-lg" style="color: #a8b2d1;"></i></a></li>
+                        </ul>
                     </div>
                     <h3>Integrating Algolia Search with WordPress Multisite</h3>
                     <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia.</p>
@@ -36,7 +40,10 @@
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        <span>📁</span>
+                        <span><i class="fa-regular fa-folder fa-sm" style="color: #a8b2d1;"></i></span>
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-arrow-up-right-from-square fa-lg" style="color: #a8b2d1;"></i></a></li>
+                        </ul>
                     </div>
                     <h3>Time to Have More Fun</h3>
                     <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS.</p>
@@ -44,7 +51,11 @@
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        <span>📁</span>
+                        <span><i class="fa-regular fa-folder fa-sm" style="color: #a8b2d1;"></i></span>
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-arrow-up-right-from-square fa-lg" style="color: #a8b2d1;"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-arrow-up-right-from-square fa-lg" style="color: #a8b2d1;"></i></a></li>
+                        </ul>
                     </div>
                     <h3>Building a Headless Mobile App CMS From Scratch</h3>
                     <p>Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement.</p>
@@ -53,20 +64,6 @@
                 <!-- Add more cards here -->
             </div>
         </div>
-            <!-- Card View -->
-            <!-- <div class="grid" id="cardView">
-                <div class="card">
-                    <h3>vu-mi</h3>
-                    <p>A serverless app enabling visitor count badges for GitHub profiles.</p>
-                    <div class="tags">Python AWS DynamoDB SQS</div>
-                </div>
-                <div class="card">
-                    <h3>mjurl</h3>
-                    <p>A simple URL shortening service implemented in Go.</p>
-                    <div class="tags">Go PostgreSQL</div>
-                </div> -->
-                <!-- Add more cards as needed -->
-            </div>
             <!-- Table View -->
             <div class="table-container hidden" id="tableView">
                 <table>
@@ -94,11 +91,73 @@
                             <td>Go PostgreSQL</td>
                             <td><a href="#">GitHub</a></td>
                         </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+
                         <!-- Add more rows as needed -->
                     </tbody>
                 </table>
             </div>
         </div>
+        <footer>
+            <div>
+                <section>
+                    <span>SOCIAL LINKS</span>
+                    <ul class="centered-list">
+                        <li><a href=""><img class="social-icons" src="src/assets/icons/github-mark/github-mark-white.png" alt=""></a></li>
+                        <li><a href=""><img class="social-icons"src="src/assets/icons/github-mark/github-mark-white.png" alt=""></a></li>
+                    </ul>
+                </section>
+                <section>
+                    <span>IMPORTANT LINKS</span>
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">projects</a></li>
+                        <li><a href="">archive</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="">download my CV</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <span>CONTACT INFO</span>
+                    <ul>
+                        <li>adria.manero.7e8@itb.cat</li>
+                        <li>+34 622 25 93 44</li>
+                        <li>Gualba, Barcelona</li>
+                    </ul>
+                </section>
+            </div>
+            <div>
+                <p class="copyright-text">Copyright 2024 Adrià Manero. All rights Reserved</p>
+            </div>
+        </footer>
 <script src="src/js/archive.js"></script>
 </body>
 </html>
