@@ -30,11 +30,11 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
-    background-color: white;
+    background-color: #112240;
 }
 
 .toggle-btn.active {
-    background-color: #007bff;
+    background-color: #112240;
     color: white;
     border-color: #007bff;
 }
